@@ -28,7 +28,7 @@ module.exports = {
         // the only required plugin option for WordPress is the GraphQL url.
         url:
           process.env.WPGRAPHQL_URL ||
-          `https://simabove-staging.hxcjxmokn1-xmz4q7kyp62o.p.temp-site.link/graphql`,
+          `https://simabove.com/graphql`,
       },
     },
 
