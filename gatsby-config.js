@@ -30,6 +30,11 @@ module.exports = {
           process.env.WPGRAPHQL_URL ||
           `https://simabove.com/graphql`,
       },
+      schema: {
+          timeout: 1200000,
+          perPage: 50,
+          requestConcurrency: 50,
+        },  
     },
 
     /**
